@@ -63,7 +63,9 @@ figure {
   right: 0;
   width: 100%;
   z-index: 100;
-  background-color: #ffffff;
+  /*background-color: #ffffff;*/
+  background-color: pink;
+
 }
 
 .site-nav-list,
@@ -194,4 +196,22 @@ figure {
 
 .about > p {
   margin: 0;
+}
+
+@media (min-width: 768px) {
+  .site-nav {
+    position: fixed;
+    height: 100%;
+    width: 70px;
+  }
+
+  .site-nav-item {
+    float: none;
+  }
+
+  .site-logo {
+
+  }
+
+
 }
