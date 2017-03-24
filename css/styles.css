@@ -199,6 +199,7 @@ figure {
 }
 
 @media (min-width: 768px) {
+
   .site-nav {
     position: fixed;
     height: 100%;
@@ -209,9 +210,16 @@ figure {
     float: none;
   }
 
-  .site-logo {
-
+  .site-header  {
+    display: inline-block;
   }
+
+  .movie-overview {
+    display: block;
+  }
+
+
+
 
 
 }
