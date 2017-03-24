@@ -214,12 +214,17 @@ figure {
     display: inline-block;
   }
 
+  article.movie {
+    margin-left: 70px;
+  }
+
   .movie-overview {
     display: block;
   }
 
-
-
+  .movie {
+    
+  }
 
 
 }
