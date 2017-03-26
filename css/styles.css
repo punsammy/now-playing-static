@@ -197,13 +197,11 @@ figure {
 }
 
 @media (min-width: 768px) {
-
   .site-nav {
     position: fixed;
     height: 90%;
     width: 70px;
   }
-
   .site-nav-item {
     float: none;
     margin-left: 0.25rem;
@@ -225,5 +223,50 @@ figure {
     background-color: black;
     color: white;
   }
+
+}
+
+@media (min-width: 992px) {
+  .movie {
+       left: 70px;
+       width: 33.333%;
+       float: left;
+
+   }
+
+   .movie-overview {
+       display: none;
+   }
+
+   .movie-poster {
+      display: block;
+   }
+
+   .movie-backdrop {
+       display: none;
+   }
+
+   footer {
+       clear: both;
+   }
+
+           .movie:first-of-type {
+               position: relative;
+               left: 70px;
+               width: 100%;
+           }
+
+           .movie:first-of-type .movie-backdrop {
+               display: block;
+               width: 100%;
+           }
+
+           .movie:first-of-type .movie-overview {
+               display: block;
+           }
+
+           .movie:first-of-type .movie-poster  {
+               display: none;
+           }
 
 }
